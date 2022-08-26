@@ -5,4 +5,4 @@ RUN tar -xvf kafka.tgz
 RUN rm kafka.tgz 
 RUN ln -s /opt/kafka_2.12-3.2.1 /kafka 
 WORKDIR /kafka/bin
-CMD /kafka/bin/zookeeper-server-start.sh /config/zookeeper.properties 
+CMD /kafka/bin/kafka-server-start.sh /config/server.properties 
