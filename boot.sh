@@ -1,0 +1,1 @@
+echo $SERVERID > /tmp/zookeeper/myid
